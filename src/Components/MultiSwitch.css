@@ -1,0 +1,24 @@
+.MultiSwitch {
+    color: #333;
+}
+
+.SimSwitch {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.SimSwitch div {
+    margin-top: 20px;   
+}
+
+.DataSwitch {
+    margin-top: 24px;
+}
+
+.DataSwitch h2{
+    margin-bottom: 8px;;
+}

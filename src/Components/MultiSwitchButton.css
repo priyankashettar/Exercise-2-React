@@ -1,0 +1,19 @@
+.SimBox {
+    border: 1px solid #5514b4;
+    padding: 8px 32px;
+    margin: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    color: #5514b4;
+    cursor: pointer;
+}
+
+.SimBox:hover {
+    background-color: #178804;
+    color: #fff;
+}
+
+.SimBox.active {
+    background-color: #178804;
+    color: #fff;
+}

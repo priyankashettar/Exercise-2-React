@@ -1,0 +1,145 @@
+.Card {
+    border: 1px solid #ddd;
+    max-width: 300px;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-top: 24px;
+    padding: 32px 4px 4px 4px;
+    margin-bottom: 24px;
+}
+
+.Card .row {
+    width: 100%;
+    
+}
+
+.Card .sim-bg,
+.Card .data-speed {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Card .sim-bg {
+    width: 50px;
+    background-color: blue;
+    padding: 4px;
+    background: url('../icon-sim-purple.svg');
+}
+
+.Card .sim-bg span,
+.Card .data-speed span {
+    display: inline-block;
+    width: 100%;
+}
+
+.Card .sim-bg span:first-child {
+    font-size: 32px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.Card .sim-bg span:nth-child(2) {
+    font-size: 12px;
+    color: #fff;
+}
+
+.Card .data-speed span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+.Card .data-speed span:nth-child(2) {
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+.Card .plan-benefits {
+    margin-top: 20px;
+}
+
+.Card .plan-benefits li {
+    list-style: none;
+}
+
+.Card .plan-benefits li::before {
+    content: "\2713";
+    color: #178804;
+    padding-right: 8px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Card .plan-details {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    margin-top: 24px;
+    padding: 16px;
+}
+
+.Card .plan-details .price-txt {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.Card .plan-details .price-txt span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.Card .plan-details .price-desc {
+    color: #178804;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2;
+}
+
+.Card .plan-details button {
+    padding: 8px 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+    background-color: #e60050;
+    color: #fff;
+    border-color: #e60050;
+    cursor: pointer;
+}
+
+.Card .price-6gb {
+    background-color: #ffe600;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 24px;
+    line-height: 2;
+    display: none;
+}
+
+.Card.Card-extra-plus {
+    padding-top: 0;
+    background-color: #ffe600;
+}
+
+.Card .Card-40gb-details {
+    display: none;
+}
+
+.Card.Card-extra .price-6gb {
+    display: block;
+}
+
+.Card.Card-extra .plan-details {
+    margin-top: 0;
+}
+ 
+.Card.Card-extra-plus .Card-40gb-details {
+    display: block;
+    border-radius: 4px;
+    padding: 8px 0;
+}
+
+.Card.Card-extra-plus .Card-40gb {
+    background-color: #fff;
+    padding-top: 8px;
+}
+
+.Card .line-through {
+    text-decoration: line-through;
+}
